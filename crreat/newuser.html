@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>إنشاء حساب</title>
+    <link rel="stylesheet" href="newuser.css">
+    <link rel="icon" type="image/png" href="/photo/head.png">
+
+</head>
+<body>
+
+
+<div class="background-animate"></div>
+<div class="container">
+    <h2>إنشاء حساب جديد</h2>
+    <form onsubmit="event.preventDefault();">
+        <div class="input-group">
+            <input type="text" id="name" placeholder=" " required>
+            <label>الاسم</label>
+        </div>
+
+        <div class="input-group">
+            <input type="text" id="phone" placeholder=" " required>
+            <label>رقم الهاتف</label>
+        </div>
+
+        <div class="input-group">
+            <input type="email" id="email" placeholder=" " required>
+            <label>البريد الإلكتروني</label>
+        </div>
+
+        <div class="row">
+            <div class="input-group">
+                <input type="text" id="city" placeholder=" " required>
+                <label>المدينة</label>
+            </div>
+            <div class="input-group">
+                <input type="text" id="area" placeholder=" " required>
+                <label>المنطقة</label>
+            </div>
+        </div>
+
+        <div class="input-group">
+            <input type="password" id="password" placeholder=" " required>
+            <label>كلمة المرور</label>
+        </div>
+
+        <button type="button" onclick="register()">
+            <span>إنشاء حساب</span>
+        </button>
+    </form>
+    <p id="msg"></p>
+</div>
+<script src="newuser.js"></script>
+</body>
+</html>

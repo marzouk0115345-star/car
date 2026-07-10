@@ -1,0 +1,138 @@
+
+[
+
+
+    
+     
+
+
+  
+  {
+    "ID": 1,
+    "name": "الامام للسيارات",
+    "numnew":1000,
+    "numused":500,
+    "phon":"01143348241",
+    "img":"https://contactcars.fra1.cdn.digitaloceanspaces.com/contactcars-production/Images/Small/Dealers/elemam_logo_736983.png",
+    "link":"https://eg.hatla2ee.com/ar/showroom/Auto-Al-Emam"
+
+  },
+  {
+ "ID": 2,
+    "name": "تويوتا مصر",
+    "numnew":1200,
+    "numused":50,
+    "phon":"01143348241",
+    "img":"https://contactcars.fra1.cdn.digitaloceanspaces.com/contactcars-production/Images/Logo/Dealers/toyotaegypt_logo_868965.png",
+    "link":"https://toyota.com.eg/ar"
+  },
+
+{
+    "ID": 3,
+    "name": "الليثى أوتو جروب",
+    "numnew":1250,
+    "numused":750,
+    "phon":"01143348241",
+    "img":"https://contactcars.fra1.cdn.digitaloceanspaces.com/contactcars-production/Images/Logo/Dealers/1519449_logo_706012.png",
+    "link":"https://ellaithy.com.eg/"
+},
+{
+    "ID": 20,
+    "name": "الامام موتورز",
+    "numnew":1900,
+    "numused":1000,
+    "phon":"01143348241",
+    "img":"https://contactcars.fra1.cdn.digitaloceanspaces.com/contactcars-production/Images/Logo/Dealers/1519280_adc0f82e-eb42-44f6-8c25-8fe11a61a568_resized.jpeg",
+    "link":"https://www.contactcars.com/ar/dealers/1519280-ELEmam-Motors"
+},
+{"ID": 4,
+    "name": "علام أوتوموتيف",
+    "numnew":2200,
+    "numused":590,
+    "phon":"01143348241",
+    "img":"https://contactcars.fra1.cdn.digitaloceanspaces.com/contactcars-production/Images/Logo/Dealers/1519446_634e15b1-6742-4780-abfe-02e8de5dc422_resized.jpeg",
+    "link":"https://www.contactcars.com/ar/dealers/1519446-Allam-Automotive?sortOrder=false&sortBy=&status=4&activeTab=cars"},
+    {
+        "ID": 5,
+    "name": "حمدكو",
+    "numnew":200,
+    "numused":1150,
+    "phon":"01143348241",
+    "img":"https://contactcars.fra1.cdn.digitaloceanspaces.com/contactcars-production/Images/Logo/Dealers/hamdco_logo_355017.png",
+    "link":"https://www.contactcars.com/ar/dealers/1519855-Hamadco?sortOrder=false&sortBy=&status=4&activeTab=cars"
+    },
+    {
+        "ID": 6,
+    "name": "ماجيستك لتجارة السيارات",
+    "numnew":1900,
+    "numused":510,
+    "phon":"01143348241",
+    "img":"https://contactcars.fra1.cdn.digitaloceanspaces.com/contactcars-production/Images/Logo/Dealers/1519293_8c71662a-bb6e-492a-a5af-7f0de5cda9a9_resized.jpeg",
+    "link":"https://www.contactcars.com/ar/dealers/1519293-Majestic?sortOrder=false&sortBy=&status=4&activeTab=cars"
+    },
+    {
+"ID": 7,
+    "name": "العيوطي أوتو",
+    "numnew":900,
+    "numused":600,
+    "phon":"01143348241",
+    "img":"https://contactcars.fra1.cdn.digitaloceanspaces.com/contactcars-production/Images/Logo/Dealers/1519537_logo_110959.png",
+    "link":"https://www.contactcars.com/ar/dealers/1519537-AL-Ayouty-Auto?sortOrder=false&sortBy=&status=4&activeTab=cars"
+    },
+    {
+        "ID": 8,
+    "name": "المتوكل للسيارات",
+    "numnew":1200,
+    "numused":970,
+    "phon":"01143348241",
+    "img":"https://contactcars.fra1.cdn.digitaloceanspaces.com/contactcars-production/Images/Logo/Dealers/1519515_7be2b2f1-a68f-4dd7-8c89-c9be07f83cd2_resized.jpeg",
+    "link":"https://www.contactcars.com/ar/dealers/1519515-EL-Motawkel-Cars?sortOrder=false&sortBy=&status=4&activeTab=cars"
+    },
+  {
+    "ID": 17,
+    "name": "جيلى",
+    "numnew":1000,
+    "numused":500,
+    "phon":"01143348241",
+    "img":"https://contactcars.fra1.cdn.digitaloceanspaces.com/contactcars-production/Images/Logo/Dealers/geely_logo_174558.png",
+    "link":"https://www.contactcars.com/ar/dealers/1519844-Geely?sortOrder=false&sortBy=&status=4&activeTab=cars"
+
+  },
+  {
+ "ID": 9,
+    "name": "شرقاوي اوتو",
+    "numnew":1200,
+    "numused":50,
+    "phon":"01143348241",
+    "img":"https://contactcars.fra1.cdn.digitaloceanspaces.com/contactcars-production/Images/Logo/Dealers/1519420_9867a54b-1cef-473e-a564-b485ec29f4fb_resized.jpeg",
+    "link":""
+  },
+
+{
+    "ID": 10,
+    "name": "اوتو جراج",
+    "numnew":1250,
+    "numused":750,
+    "phon":"01143348241",
+    "img":"https://contactcars.fra1.cdn.digitaloceanspaces.com/contactcars-production/Images/Logo/Dealers/autogarage_logo_735843.png",
+    "link":"https://www.contactcars.com/ar/dealers/1519551-Auto-Garage?sortOrder=false&sortBy=&status=4&activeTab=cars"
+},
+{
+    "ID": 11,
+    "name": "تيتشر موتورز",
+    "numnew":1900,
+    "numused":1000,
+    "phon":"01143348241",
+    "img":"https://contactcars.fra1.cdn.digitaloceanspaces.com/contactcars-production/Images/Logo/Dealers/1519433_logo_210356.png",
+    "link":"https://www.contactcars.com/ar/dealers/1519433-Teacher-motors?sortOrder=false&sortBy=&status=4&activeTab=cars"
+}
+
+
+
+
+
+
+
+
+
+]

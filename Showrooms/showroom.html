@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CarZon</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="showroom.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/png" href="/photo/head.png">
+
+</head>
+<body>
+    
+   <header class="header">
+
+      <!-- Top Navbar -->
+      <div class="top-nav">
+        <!-- Left: Auth -->
+        <div class="auth" id="auth">
+          <button class="login" onclick="location.href='/addandlogn/login.html'"><i class="fas fa-sign-in-alt"></i>تسجيل الدخول</button>
+          <button class="account" onclick="location.href='../acount/profile.html'"><i class="fa-solid fa-circle-user"></i>حسابي</button>
+          <button class="account" onclick="location.href='crreat/newuser.html'"><i class="fa-solid fa-circle-user"></i>أنشاء حساب</button>
+
+        </div>
+
+       
+
+        <!-- Right: Logo -->
+        <div class="logo">
+          <img src="/photo/logo.png" alt="Logo" class="loading-logo">
+        </div>
+
+      </div>
+      <!-- Bottom Navbar -->
+
+      <div class="bottom-nav">
+        <a href="#" onclick="location.href='../index.html'"><i class="fas fa-home"></i> الرئيسية</a>
+        <a href="#" onclick="location.href='/new/newcars.html'"><i class="fas fa-car-side"></i> سيارات جديدة</a>
+        <a href="#" onclick="location.href='/used/usedcar.html'"><i class="fas fa-history"></i> مستعملة</a>
+        <a href="#" onclick="location.href='/electrec/elecar.html'"><i class="fas fa-bolt"></i> كهربائية</a>
+        <a href="#" onclick="location.href='/Showrooms/showroom.html'"><i class="fas fa-store"></i> المعارض</a>
+        <a href="#" onclick="location.href='/addandlogn/add_car.html'"><i class="fa-solid fa-circle-plus"></i> بيع عربيتك</a>
+        <a href="#" onclick="location.href='https:eg.hatla2ee.com/news/'"><i class="fas fa-newspaper"></i> الأخبار والمقالات</a>
+        <a href="#" onclick="location.href='/about/about.html'"> <i class="fa-solid fa-users"></i></i> من نحن</a>
+
+      </div>
+
+
+
+
+
+      <!-- ==========================start sied bar====================-->
+
+
+      <div id="sidebar" class="sidebar">
+
+        <div class="sidebar-header">
+          <h3>AutoElite</h3>
+          <span class="x" onclick="closeMenu()">✖</span>
+          <button class="menu-btn" onclick="openMenu()">☰</button>
+        </div>
+        <a href="#" onclick="location.href='/crreat/newuser.html'"><i class="fa-solid fa-circle-user"></i>أنشاء حساب</a>
+        <a href="#" onclick="location.href='/addandlogn/login.html'"><i style="padding-left:10px ;" class="fas fa-sign-in-alt"></i>تسجيل الدخول</a>
+
+        <a href="#" onclick="location.href='/acount/profile.html'"><i class="fa-solid fa-circle-user"></i>حسابي</a>
+
+
+        <hr>
+
+
+        <a href="#" onclick="location.href='/index.html'"><i class="fas fa-home"></i> الرئيسية</a>
+        <a href="#" onclick="location.href='/new/newcars.html'"><i class="fas fa-car-side"></i> سيارات جديدة</a>
+        <a href="#" onclick="location.href='/used/usedcar.html'"><i class="fas fa-history"></i> مستعملة</a>
+        <a href="#" onclick="location.href='/electrec/elecar.html'"><i class="fas fa-bolt"></i> كهربائية</a>
+        <a href="#" onclick="location.href='/Showrooms/showroom.html'"><i class="fas fa-store"></i> المعارض</a>
+        <a href="#" onclick="location.href='/addandlogn/add_car.html'"><i class="fa-solid fa-circle-plus"></i> بيع عربيتك</a>
+        <a href="#" onclick="location.href='https:eg.hatla2ee.com/news/'"><i class="fas fa-newspaper"></i> الأخبار والمقالات</a>
+        <a href="#" onclick="location.href='/about/about.html'"> <i class="fa-solid fa-users"></i></i> من نحن</a>
+
+
+      </div>
+      <!-- ==========================end sied bar====================-->
+
+    </header>
+    <!--==============end navbar=======================-->
+
+    <div class="container">
+        <h1  ><i class="fas fa-store"></i>المعارض </h1>
+        <div id="dealers-grid"></div>
+    </div>
+
+  <div class="foot">
+    <h1 onclick="location.href='/index.html'">CarZone 🚗</h1>
+
+  </div>
+
+  <main>
+    <h2 style="background-color: black; color: #f7f5f5;">مرحباً بك في موقع السيارات</h2>
+  </main>
+          <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-container">
+
+          <div class="footer-box">
+            <h2 onclick="location.href='/index.html'">CarZone 🚗</h2>
+            <p>أفضل موقع لبيع وشراء السيارات الجديدة والمستعملة والكهربائية</p>
+          </div>
+
+          <div class="footer-box">
+            <h3>الأقسام</h3>
+            <ul>
+              <li onclick="location.href='/new/newcars.html'">🚗 سيارات جديدة</li>
+              <li onclick="location.href='/used/usedcar.html'">🚙 سيارات مستعملة</li>
+              <li onclick="location.href='/electrec/elecar.html'">⚡ سيارات كهربائية</li>
+            </ul>
+          </div>
+
+          <div class="footer-box">
+            <h3>تواصل معنا</h3>
+            <p>
+    📧 <a href="mailto:marzouk.0115345@gmail.com">
+        marzouk.0115345@gmail.com
+    </a>
+</p>
+          </div>
+
+          <div class="footer-box social-icons">
+            <h3>تابعنا</h3>
+            <a href="#" onclick="location.href='https:www.facebook.com/share/14d6b54pB8s/'"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" onclick="location.href='https:www.instagram.com/mohammed_saeed_22?igsh=MTNocXl3ajJjc242bw=='"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" onclick="location.href=''"><i class="fa-brands fa-youtube"></i></a>
+            <!-- <a href="#" onclick="location.href=''"><i class="fa-brands fa-linkedin"></i></a> -->
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 CarZone. جميع الحقوق محفوظة</p>
+          <!-- <p>سياسة الخصوصية|شروط الاستخدام</p> -->
+        </div>
+      </footer>
+
+      <!-- Scroll Top Button -->
+      <button id="topBtn"><i class="fa-solid fa-angles-up"></i></button>
+    </div>
+  
+    <script src="showroom.js"></script>
+    <script src="/JavaScript/siedbar.js"></script>
+    <script src="/JavaScript/footer.js"></script>
+</body>
+</html>

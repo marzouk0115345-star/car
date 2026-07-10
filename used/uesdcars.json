@@ -1,0 +1,359 @@
+[
+  {
+    "ID":21,
+    "name": "Nissan Sunny 2024",
+      "brandImage":"https://www.pngplay.com/wp-content/uploads/7/Nissan-Logo-Background-PNG-Image.png",
+    "brand": "Nissan",
+    "status": "Used", 
+    "price": "650,000 جنيه",
+    "year": 2024,
+    "engine": "1500cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed":"180km/h",
+    "transmission": "أوتوماتيك",
+    "image": ["https://legion-images.hatla2ee.com/listing_image/1bce26c5-1828-4b87-a76a-8f9e8aefd29b/large.jpg",
+    "https://legion-images.hatla2ee.com/listing_image/c4435187-4125-4634-a42d-b99cf9aa2b84/large.jpg",
+    "https://legion-images.hatla2ee.com/listing_image/c4fde44e-55d7-4128-895c-780c00a9985c/large.jpg",
+    "https://legion-images.hatla2ee.com/listing_image/2106b166-7252-41bf-87b8-a3a9bd581bb6/large.jpg"
+    ]
+  },
+
+  {
+    "ID":22,
+    "name": "Opel Astra 2013",
+    "brandImage":"https://th.bing.com/th/id/R.45211d93dc5f79e83b99d0021282744d?rik=fJJQ%2fmjs6XyQNA&riu=http%3a%2f%2fpngimg.com%2fuploads%2fcar_logo%2fcar_logo_PNG1659.png&ehk=pAEAemrjZyygJwvQ9l%2b3jYgsES7gngSOONWdxHY1VR8%3d&risl=&pid=ImgRaw&r=0",
+    "brand": "Opel ",
+    "status": "Used", 
+    "price": "558,000 جنيه",
+    "year": 2013,
+    "engine": "1600cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed":"180km/h",
+    "transmission": "أوتوماتيك",
+    "image": ["https://legion-images.hatla2ee.com/listing_image/d5237e03-87ea-474e-a51a-ed8920116696/large.jpg",
+    "https://legion-images.hatla2ee.com/listing_image/faf52993-e0e0-4fd8-acd5-d82dc412ae0b/large.jpg",
+    "https://legion-images.hatla2ee.com/listing_image/faf52993-e0e0-4fd8-acd5-d82dc412ae0b/large.jpg"
+    ]
+  },
+  {
+    "ID":23,
+    "name": "Toyota Corolla 2008",
+    "brandImage":"https://th.bing.com/th/id/R.84a2ffcc555d2f1f1d0a260e67c86b1a?rik=TceOmYgvu%2b03zw&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f04%2fToyota-Logo.png&ehk=kA4%2fv8Xw0nlFTYQtLSIytFJhbxS%2fKgO%2fSzowb1OCUbA%3d&risl=&pid=ImgRaw&r=0",
+    "brand": "Toyota ",
+    "status": "Used", 
+    "price": "580,000 جنيه",
+    "year": 2008,
+    "engine": "1800cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed":"190km/h",
+    "transmission": "أوتوماتيك",
+    "image": ["https://legion-images.hatla2ee.com/listing_image/8ced07be-accc-42fc-8287-9a90740776c5/large.jpg",
+    "https://legion-images.hatla2ee.com/listing_image/d3868155-25d4-4fee-890b-d6f0f9534f50/large.jpg"
+    ]
+  },
+  {
+    "ID":24,
+    "name": "Fiat Linea 2009",
+    "brandImage":"https://tse2.mm.bing.net/th/id/OIP.Bu6Z8dABgo13vGYxXJwvnQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "brand": "Fiat",
+    "status": "Used", 
+    "price": "320,000 جنيه",
+    "year": 2009,
+    "engine": "1600cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed":"190km/h",
+    "transmission":"مانيول",
+    "image": ["https://legion-images.hatla2ee.com/listing_image/d032e03c-2ea5-41f0-8cd0-593ddb26ed4d/large.jpg",
+    "https://legion-images.hatla2ee.com/listing_image/973aa2a6-0f01-49df-88fe-549bfcd16814/large.jpg",
+    "https://legion-images.hatla2ee.com/listing_image/f20b26b4-711b-4e0f-b496-ea02a7c3645f/large.jpg",
+    "https://legion-images.hatla2ee.com/listing_image/ae258c70-af94-447f-8e74-7e7d1c7d211d/large.jpg"
+    ]
+  },
+   {
+    "ID":25,
+    "name": "Peugeot 206 2001",
+    "brandImage":"https://static.vecteezy.com/system/resources/previews/020/499/892/non_2x/peugeot-brand-logo-car-symbol-black-design-french-automobile-illustration-free-vector.jpg",
+    "brand": "Peugeot",
+    "status": "Used", 
+    "price": "195,000 جنيه",
+    "year": 2001,
+    "engine": "1400cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed":"170km/h",
+    "transmission":"مانيول",
+    "image":["https://legion-images.hatla2ee.com/listing_image/75b70de2-61b6-4319-8b8c-496c58fbaf36/large.jpg",
+    "https://legion-images.hatla2ee.com/listing_image/ed572611-0e97-4c2a-a3ef-4ae456d722ec/large.jpg"
+    ]
+
+  },
+   {
+    "ID":26,
+    "name": "Mitsubishi Lancer Puma 2007",
+    "brandImage":"https://th.bing.com/th/id/R.bd5fba6472107dba65eeeebfd089288c?rik=Abh3c0TqV5OvJg&pid=ImgRaw&r=0",
+    "brand": "Mitsubishi Lancer",
+    "status": "Used", 
+    "price": "435,000 جنيه",
+    "year": 2007,
+    "engine": "1600cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed":"180km/h",
+    "transmission": "أوتوماتيك",
+    "image": ["https://legion-images.hatla2ee.com/listing_image/cc6cf78d-36af-4edc-9147-01e7d230f7b1/large.jpg",
+    "https://legion-images.hatla2ee.com/listing_image/a090022e-645c-4926-8eeb-d8e67848aeef/large.jpg",
+    "https://legion-images.hatla2ee.com/listing_image/93bd3981-b6b6-4280-893d-e09297151c40/large.jpg"
+    ]
+  },
+    {
+    "ID":27,
+    "name": "Volkswagen Passat 2021",
+    "brandImage":"https://www.pngplay.com/wp-content/uploads/3/Volkswagen-Logo-Background-PNG-Image.png",
+    "brand": "Volkswagen",
+    "status": "Used", 
+    "price": "1,600,000 جنيه",
+    "year": 2021,
+    "engine": "2000cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed":"240km/h",
+    "transmission":"أوتوماتيك",
+    "image": ["https://legion-images.hatla2ee.com/listing_image/ef9ec237-3619-4005-849c-9cfa9f0bbc09/large.jpg",
+    "https://legion-images.hatla2ee.com/listing_image/c39a6af2-4a84-4df5-8027-df456d579dcf/large.jpg"
+
+    ]
+  },
+   {
+    "ID":28,
+    "name": " Chevrolet Aveo 2011",
+    "brandImage":"https://tse3.mm.bing.net/th/id/OIP.aLxmUXnp_AHDU7HaItr7PgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "brand": " Chevrolet",
+    "status": "Used", 
+    "price": "300,000 جنيه",
+    "year": 2011,
+    "engine": "1600cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed":"180km/h",
+    "transmission": "أوتوماتيك",
+    "image": ["https://legion-images.hatla2ee.com/listing_image/905200b1-de5f-45d3-a925-dad91d5954c8/large.jpg",
+    "https://legion-images.hatla2ee.com/listing_image/85db7f96-83cc-4b2d-9803-9f052806c2e8/large.jpg"
+    ]
+  },
+   {
+    "ID":29,
+    "name": "Hyundai Elantra 2021",
+    "brandImage":"https://logo-marque.com/wp-content/uploads/2021/03/Hyundai-Logo-650x366.png",
+    "brand": "Hyundai",
+    "status": "Used", 
+    "price": "1,070,000 جنيه",
+    "year": 2021,
+    "engine": "2000cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed":"210km/h",
+    "transmission": "أوتوماتيك",
+    "image": ["https://legion-images.hatla2ee.com/listing_image/6a06f6a9-cbd9-4d29-ba92-d35dfcfaa6b0/large.jpg"
+    ]
+  },
+     {
+    "ID":30,
+    "name": "Kia Cerato 2020",
+    "brandImage":"https://1000logos.net/wp-content/uploads/2020/02/kia-logo-768x512.png",
+    "brand": " Kia",
+    "status": "Used", 
+    "price": "1,000,000 جنيه",
+    "year": 2020,
+    "engine": "1600cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed":"203km/h",
+    "transmission": "أوتوماتيك",
+    "image": ["https://legion-images.hatla2ee.com/listing_image/2482b8b3-7f7b-46ca-b555-d34caa3dfd62/large.jpg",
+    "https://legion-images.hatla2ee.com/listing_image/85db7f96-83cc-4b2d-9803-9f052806c2e8/large.jpg"
+    ]
+  },
+
+  
+  {
+    "ID": 31,
+    "name": "Toyota Corolla 2020",
+    "brandImage":"https://th.bing.com/th/id/R.84a2ffcc555d2f1f1d0a260e67c86b1a?rik=TceOmYgvu%2b03zw&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f04%2fToyota-Logo.png&ehk=kA4%2fv8Xw0nlFTYQtLSIytFJhbxS%2fKgO%2fSzowb1OCUbA%3d&risl=&pid=ImgRaw&r=0",
+    "brand": "Toyota",
+    "status": "Used",
+    "price": "1,050,000 جنيه",
+    "year": 2020,
+    "engine": "1600cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed": "195km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://legion-images.hatla2ee.com/listing_image/aa8cc1e4-57b8-47a9-822d-8ee701e9315a/large.jpg"
+      
+    ]
+  },
+  {
+    "ID": 32,
+    "name": "Hyundai Elantra 2021",
+    "brandImage":"https://logo-marque.com/wp-content/uploads/2021/03/Hyundai-Logo-650x366.png",
+    "brand": "Hyundai",
+    "status": "Used",
+    "price": "980,000 جنيه",
+    "year": 2021,
+    "engine": "1600cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed": "200km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://tse1.mm.bing.net/th/id/OIP.etlk4X9XIOy4JqInvmrVWQHaFj?rs=1&pid=ImgDetMain&o=7&rm=3"
+    
+    ]
+  },
+  {
+    "ID": 33,
+    "name": "Kia Cerato 2019",
+    "brandImage":"https://1000logos.net/wp-content/uploads/2020/02/kia-logo-768x512.png",
+    "brand": "Kia",
+    "status": "Used",
+    "price": "870,000 جنيه",
+    "year": 2019,
+    "engine": "1600cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed": "190km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://2.bp.blogspot.com/-sO3btuI1Igk/Wx5camK9lXI/AAAAAAABE78/aHQmG7veUAIsCw_Qm9LMeRWKZpWevfvEgCLcBGAs/s1600/kia_cerato_sport_6.jpg"
+    ]
+  },
+  {
+    "ID": 34,
+    "name": "Honda Civic 2018",
+    "brandImage":"https://tse1.mm.bing.net/th/id/OIP.iRImtXLp4vH2nT_zgFeYOAHaGC?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "brand": "Honda",
+    "status": "Used",
+    "price": "1,150,000 جنيه",
+    "year": 2018,
+    "engine": "1800cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed": "210km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://th.bing.com/th/id/OIP.1F-mLMDKwrnGmL2iUtpKmwHaE4?w=293&h=194&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+      
+    ]
+  },
+  {
+    "ID": 35,
+    "name": "Chevrolet Aveo 2017",
+    "brandImage":"https://tse3.mm.bing.net/th/id/OIP.aLxmUXnp_AHDU7HaItr7PgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "brand": "Chevrolet",
+    "status": "Used",
+    "price": "420,000 جنيه",
+    "year": 2017,
+    "engine": "1500cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed": "170km/h",
+    "transmission": "مانيوال",
+    "image": [
+      "https://tse3.mm.bing.net/th/id/OIP.mNhWPLrKeqcXsHLIjowyxAHaEP?rs=1&pid=ImgDetMain&o=7&rm=3"
+    ]
+  },
+  {
+    "ID": 36,
+    "name": "MG 5 2022",
+    "brandImage":"https://i.pinimg.com/736x/a7/55/25/a75525b39c4b1f581dd5a42e31070905.jpg",
+    "brand": "MG",
+    "status": "Used",
+    "price": "820,000 جنيه",
+    "year": 2022,
+    "engine": "1500cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed": "185km/h",
+    "transmission": "CVT",
+    "image": [
+      "https://img.philkotse.com/2019/09/18/vzF0dUU5/2020mg5ava1-f7b1.jpg"
+      
+    ]
+  },
+  {
+    "ID": 37,
+    "name": "Peugeot 301 2019",
+    "brandImage":"https://static.vecteezy.com/system/resources/previews/020/499/892/non_2x/peugeot-brand-logo-car-symbol-black-design-french-automobile-illustration-free-vector.jpg",
+    "brand": "Peugeot",
+    "status": "Used",
+    "price": "650,000 جنيه",
+    "year": 2019,
+    "engine": "1600cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed": "188km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://th.bing.com/th/id/R.407d68f0a4f3b6896f54d5f4a145061b?rik=h3HLEvvn9Jh0ig&pid=ImgRaw&r=0"
+    ]
+  },
+  {
+    "ID": 38,
+    "name": "Renault Logan 2020",
+    "brandImage":"https://th.bing.com/th/id/R.659b9ebe05cdb0892d6d7451333c7753?rik=B3HTbc0PpGfBAA&riu=http%3a%2f%2fwww.car-brand-names.com%2fwp-content%2fuploads%2f2015%2f05%2fRenault-logo-2.png&ehk=pOb0w0JpkMlZm1hk4BU7I7e4O%2b7uk%2bKvA4%2fooo%2f3SEo%3d&risl=&pid=ImgRaw&r=0",
+    "brand": "Renault",
+    "status": "Used",
+    "price": "560,000 جنيه",
+    "year": 2020,
+    "engine": "1600cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed": "175km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://tse4.mm.bing.net/th/id/OIP.0_-gBERJY0DATQ5n20hRWgHaEo?rs=1&pid=ImgDetMain&o=7&rm=3"
+      
+    ]
+  },
+  {
+    "ID": 39,
+    "name": "Fiat Tipo 2021",
+    "brandImage":"https://tse2.mm.bing.net/th/id/OIP.Bu6Z8dABgo13vGYxXJwvnQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "brand": "Fiat",
+    "status": "Used",
+    "price": "790,000 جنيه",
+    "year": 2021,
+    "engine": "1400cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed": "192km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://tse2.mm.bing.net/th/id/OIP.Hj9WxwX889L9QHN_wgnhWQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
+    
+    ]
+  },
+  {
+    "ID": 40,
+    "name": "Nissan Sentra 2023",
+    "brandImage":"https://www.pngplay.com/wp-content/uploads/7/Nissan-Logo-Background-PNG-Image.png",
+    "brand": "Nissan",
+    "status": "Used",
+    "price": "930,000 جنيه",
+    "year": 2023,
+    "engine": "1600cc",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed": "200km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://th.bing.com/th/id/R.0ccbac756dfe765ccc9f9b06ce9c76ed?rik=461NMrvaeQ1icQ&pid=ImgRaw&r=0"
+    
+    ]
+  }
+  ]

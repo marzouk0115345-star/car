@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>إضافة سيارة</title>
+
+<link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/photo/head.png">
+
+</head>
+
+<body>
+
+<div class="container">
+    <h2>🚗 إضافة سيارة</h2>
+
+    <label>اسم السيارة</label>
+    <input type="text" id="name" />
+
+    <label>الماركة</label>
+    <input type="text" id="brand" />
+
+    <label>الحالة</label>
+    <select id="status">
+        <!-- <option>جديدة</option> -->
+        <option>مستعملة</option>
+    </select>
+
+    <label>السعر</label>
+    <input type="text" id="price" />
+
+    <label>سنة الصنع</label>
+    <input type="number" id="year" />
+
+    <label>المحرك</label>
+    <input type="text" id="engine" />
+
+    <label>نوع الوقود</label>
+    <input type="text" id="fuel" />
+
+    <label>عدد الأسطوانات</label>
+    <input type="number" id="cylinders" />
+
+    <label>السرعة</label>
+    <input type="text" id="speed" />
+
+    <label>ناقل الحركة</label>
+    <input type="text" id="transmission" />
+
+    <!-- الجديد -->
+    <label>المحافظة</label>
+    <input type="text" id="governorate" />
+
+    <label>المنطقة</label>
+    <input type="text" id="area" />
+
+    <label>رقم التواصل</label>
+    <input type="text" id="phone" />
+
+    <label>صورة السيارة</label>
+    <input type="file" id="image" accept="image/*" />
+    <img id="preview" />
+
+    <button onclick="submitData()">عرض في قسم السيارات المستعملة</button>
+
+    <pre id="output"></pre>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

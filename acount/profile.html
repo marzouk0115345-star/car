@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>حسابي</title>
+
+    <link rel="stylesheet" href="profile.css">
+    <link rel="icon" type="image/png" href="/photo/head.png">
+
+
+</head>
+
+<body>
+
+    <div class="profile-page">
+
+        <!-- Sidebar -->
+
+        <div class="sidebar">
+
+            <div class="user-card">
+
+                <div class="circle">
+                    <span id="firstLetter">M</span>
+                </div>
+
+                <h2 id="userName">Mohamed</h2>
+
+                <p>مرحبا</p>
+
+            </div>
+<ul>
+
+    <li class="active" onclick="showProfile()">
+        حسابي
+    </li>
+
+    <li onclick="showFavorites()">
+        المفضلة
+    </li>
+
+    <li onclick="showMyCars()">
+        سياراتي
+    </li>
+
+    <li onclick="logout()">
+        تسجيل خروج
+    </li>
+
+</ul>
+
+        </div>
+
+
+        <!-- Main Content -->
+
+
+<div class="content">
+
+    <!-- حسابي -->
+    <div class="box" id="profileSection">
+
+        <h1>حسابي</h1>
+
+        <div class="form-grid">
+
+            <div class="input-box">
+                <label>الاسم</label>
+                <input type="text" id="name" disabled>
+            </div>
+
+            <div class="input-box">
+                <label>رقم الموبايل</label>
+                <input type="text" id="phone" disabled>
+            </div>
+
+            <div class="input-box">
+                <label>البريد الإلكتروني</label>
+                <input type="email" id="email" disabled>
+            </div>
+
+            <div class="input-box">
+                <label>المحافظة</label>
+                <input type="text" id="city" disabled>
+            </div>
+
+            <div class="input-box">
+                <label>المنطقة</label>
+                <input type="text" id="area" disabled>
+            </div>
+
+        </div>
+
+        <div class="buttons">
+
+            <button class="edit-btn" onclick="enableEdit()">
+                تعديل
+            </button>
+
+            <button class="save-btn" onclick="saveData()">
+                حفظ
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- المفضلة -->
+    <div class="box" id="favoritesSection" style="display:none;">
+
+        <h1>المفضلة ❤️</h1>
+
+        <div id="favoriteCars"></div>
+
+    </div>
+
+    <!-- سياراتي -->
+    <div class="box" id="myCarsSection" style="display:none;">
+
+        <h1>سياراتي 🚗</h1>
+
+        <div id="myCars"></div>
+
+    </div>
+
+</div>
+
+            <!-- Cars -->
+
+    
+
+        </div>
+
+    </div>
+
+    <script src="profile.js"></script>
+
+</body>
+
+</html>

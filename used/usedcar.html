@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>used Cars</title>
+
+<link rel="stylesheet" href="usedcar.css">
+    <link rel="icon" type="image/png" href="/photo/head.png">
+
+<link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="contant">
+  
+<header class="header">
+
+      <!-- Top Navbar -->
+      <div class="top-nav">
+        <!-- Left: Auth -->
+        <div class="auth" id="auth">
+          <button class="login" onclick="location.href='/addandlogn/login.html'"><i class="fas fa-sign-in-alt"></i>تسجيل الدخول</button>
+          <button class="account" onclick="location.href='../acount/profile.html'"><i class="fa-solid fa-circle-user"></i>حسابي</button>
+          <button class="account" onclick="location.href='crreat/newuser.html'"><i class="fa-solid fa-circle-user"></i>أنشاء حساب</button>
+
+        </div>
+
+       
+
+        <!-- Right: Logo -->
+        <div class="logo">
+          <img  onclick="location.href='/index.html'"   src="/photo/logo.png" alt="Logo" class="loading-logo">
+        </div>
+
+      </div>
+      <!-- Bottom Navbar -->
+
+      <div class="bottom-nav">
+        <a href="#" onclick="location.href='../index.html'"><i class="fas fa-home"></i> الرئيسية</a>
+        <a href="#" onclick="location.href='/new/newcars.html'"><i class="fas fa-car-side"></i>  جديدة</a>
+        <a href="#" onclick="location.href='/used/usedcar.html'"><i class="fas fa-history"></i> مستعملة</a>
+        <a href="#" onclick="location.href='/electrec/elecar.html'"><i class="fas fa-bolt"></i> كهربائية</a>
+        <a href="#" onclick="location.href='/Showrooms/showroom.html'"><i class="fas fa-store"></i> المعارض</a>
+        <a href="#" onclick="location.href='/addandlogn/add_car.html'"><i class="fa-solid fa-circle-plus"></i> بيع عربيتك</a>
+        <a href="#" onclick="location.href='https:eg.hatla2ee.com/news/'"><i class="fas fa-newspaper"></i> الأخبار والمقالات</a>
+        <a href="#" onclick="location.href='/about/about.html'"> <i class="fa-solid fa-users"></i></i> من نحن</a>
+
+      </div>
+
+
+
+
+
+      <!-- ==========================start sied bar====================-->
+
+
+      <div id="sidebar" class="sidebar">
+
+        <div class="sidebar-header">
+          <h3>AutoElite</h3>
+          <span class="x" onclick="closeMenu()">✖</span>
+          <button class="menu-btn" onclick="openMenu()">☰</button>
+        </div>
+        <a href="#" onclick="location.href='/crreat/newuser.html'"><i class="fa-solid fa-circle-user"></i>أنشاء حساب</a>
+        <a href="#" onclick="location.href='/addandlogn/login.html'"><i style="padding-left:10px ;" class="fas fa-sign-in-alt"></i>تسجيل الدخول</a>
+
+        <a href="#" onclick="location.href='/acount/profile.html'"><i class="fa-solid fa-circle-user"></i>حسابي</a>
+
+
+        <hr>
+
+
+        <a href="#" onclick="location.href='/index.html'"><i class="fas fa-home"></i> الرئيسية</a>
+        <a href="#" onclick="location.href='/new/newcars.html'"><i class="fas fa-car-side"></i> سيارات جديدة</a>
+        <a href="#" onclick="location.href='/used/usedcar.html'"><i class="fas fa-history"></i> مستعملة</a>
+        <a href="#" onclick="location.href='/electrec/elecar.html'"><i class="fas fa-bolt"></i> كهربائية</a>
+        <a href="#" onclick="location.href='/Showrooms/showroom.html'"><i class="fas fa-store"></i> المعارض</a>
+        <a href="#" onclick="location.href='/addandlogn/add_car.html'"><i class="fa-solid fa-circle-plus"></i> بيع عربيتك</a>
+        <a href="#" onclick="location.href='https:eg.hatla2ee.com/news/'"><i class="fas fa-newspaper"></i> الأخبار والمقالات</a>
+        <a href="#" onclick="location.href='/about/about.html'"> <i class="fa-solid fa-users"></i></i> من نحن</a>
+
+
+      </div>
+      <!-- ==========================end sied bar====================-->
+
+    </header>
+    <!--==============end navbar=======================-->
+
+
+
+
+
+<!-- BRANDS -->
+<h2 class="titel"><i class="fas fa-car-side"></i>السيارات المستعمله</h2>
+<section>
+
+<h2>الماركات</h2>
+
+<div class="brands" id="brands"></div>
+
+</section>
+
+
+
+<!-- FILTER -->
+
+<section>
+
+<h2 id="filterTitle"></h2>
+
+<div class="slider" id="filteredCars"></div>
+
+</section>
+
+
+
+<!-- ALL CARS -->
+
+<section>
+
+<div class="head">
+
+<h2>كل السيارات</h2>
+
+<div class="btns">
+
+<button id="prev">❮</button>
+
+<button id="next">❯</button>
+
+</div>
+
+</div>
+
+
+
+<div class="slider" id="allCars"></div>
+
+</section>
+<br>
+<br>
+    <div class="container" id="details-content">
+    </div>
+
+    <div class="container" id="car-details-container">
+    </div>
+    <div class="calculator-container">
+      <h3>حاسبة القسط الشهري</h3>
+      <div class="calc-form">
+        <div class="input-group">
+          <label>سعر السيارة (جنيه)</label>
+          <input type="number" id="carPrice" placeholder="مثلاً: 650000">
+        </div>
+        <div class="input-group">
+          <label>المقدم المدفوع (جنيه)</label>
+          <input type="number" id="downPayment" placeholder="مثلاً: 200000">
+        </div>
+        <div class="input-group">
+          <label>مدة التقسيط (بالشهور)</label>
+          <select id="months">
+            <option value="12">12 شهر (سنة)</option>
+            <option value="24">24 شهر (سنتين)</option>
+            <option value="36">36 شهر (3 سنوات)</option>
+            <option value="48">48 شهر (4 سنوات)</option>
+            <option value="60">60 شهر (5 سنوات)</option>
+          </select>
+        </div>
+        <button class="calc-btn" onclick="calculateInstallment()">احسب القسط الآن</button>
+      </div>
+
+      <div id="resultBox" class="result-box" style="display: none;">
+        <p>قسطك الشهري هو:</p>
+        <h2 id="monthlyAmount">0</h2>
+        <span>جنيه / شهرياً</span>
+      </div>
+      <!--========================footer====================-->
+  <br>
+
+ 
+
+          <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-container">
+
+          <div class="footer-box">
+            <h2 onclick="location.href='/index.html'">CarZone 🚗</h2>
+            <p>أفضل موقع لبيع وشراء السيارات الجديدة والمستعملة والكهربائية</p>
+          </div>
+
+          <div class="footer-box">
+            <h3>الأقسام</h3>
+            <ul>
+              <li onclick="location.href='/new/newcars.html'">🚗 سيارات جديدة</li>
+              <li onclick="location.href='/used/usedcar.html'">🚙 سيارات مستعملة</li>
+              <li onclick="location.href='/electrec/elecar.html'">⚡ سيارات كهربائية</li>
+            </ul>
+          </div>
+
+          <div class="footer-box">
+            <h3>تواصل معنا</h3>
+            <p>
+    📧 <a href="mailto:marzouk.0115345@gmail.com">
+        marzouk.0115345@gmail.com
+    </a>
+</p>
+          </div>
+
+          <div class="footer-box social-icons">
+            <h3>تابعنا</h3>
+            <a href="#" onclick="location.href='https:www.facebook.com/share/14d6b54pB8s/'"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" onclick="location.href='https:www.instagram.com/mohammed_saeed_22?igsh=MTNocXl3ajJjc242bw=='"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" onclick="location.href=''"><i class="fa-brands fa-youtube"></i></a>
+            <!-- <a href="#" onclick="location.href=''"><i class="fa-brands fa-linkedin"></i></a> -->
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 CarZone. جميع الحقوق محفوظة</p>
+          <!-- <p>سياسة الخصوصية|شروط الاستخدام</p> -->
+        </div>
+      </footer>
+
+      <!-- Scroll Top Button -->
+      <button id="topBtn"><i class="fa-solid fa-angles-up"></i></button>
+    </div>
+    </div>
+
+
+<script src="carused.js"></script>
+<script src="/JavaScript/siedbar.js"></script>
+<script src="/JavaScript/calculator.js"></script>
+<script src="/JavaScript/footer.js"></script>
+
+</body>
+
+</html>

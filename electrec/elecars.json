@@ -1,0 +1,358 @@
+[
+  {
+    "ID": 41,
+    "name": "Tesla Model 3 2023",
+    "brandImage":"https://listcarbrands.com/wp-content/uploads/2015/11/logo-Tesla-768x335.png",
+    "brand": "Tesla",
+    "status": "Used",
+    "price": "2,250,000 جنيه",
+    "year": 2023,
+    "engine": "Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "225km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://media.drivingelectric.com/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1698686429/drivingelectric/2023-10/Tesla%20Model%203%20facelift%201_awovfc.jpg"
+    ]
+  },
+  {
+    "ID": 42,
+    "name": "BMW iX 2022",
+    "brandImage":"https://www.freeiconspng.com/uploads/bmw-car-logo-png-brand-image--bmw-car-logo-png-brand-image-4.png",
+    "brand": "BMW",
+    "status": "Used",
+    "price": "3,300,000 جنيه",
+    "year": 2022,
+    "engine": "Dual Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "200km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://autonxt.net/wp-content/uploads/2020/11/BMW-iX18-2048x1229.jpg"
+    ]
+  },
+  {
+    "ID": 43,
+    "name": "Mercedes EQE 2023",
+    "brandImage":"https://tse3.mm.bing.net/th/id/OIP._ENF8kyAS5g-mrmHhnVbogHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "brand": "Mercedes-Benz",
+    "status": "Used",
+    "price": "2,900,000 جنيه",
+    "year": 2023,
+    "engine": "Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "210km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://tse1.mm.bing.net/th/id/OIP.8YrpOAXnjt04BQlDBrR6kgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
+    ]
+  },
+  {
+    "ID": 44,
+    "name": "Volkswagen ID.4 2022",
+    "brandImage":"https://www.pngplay.com/wp-content/uploads/3/Volkswagen-Logo-Background-PNG-Image.png",
+    "brand": "Volkswagen",
+    "status": "Used",
+    "price": "1,580,000 جنيه",
+    "year": 2022,
+    "engine": "Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "180km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://www.greeleyvolkswagen.com/blogs/1154/wp-content/uploads/2022/04/2022-volkswagen-id4_landing-7.jpeg"
+      
+    ]
+  },
+  {
+    "ID": 45,
+    "name": "BYD Yuan Plus 2023",
+    "brandImage":"https://tse3.mm.bing.net/th/id/OIP.zanlmMh6ABkOjOELyBWMaAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "brand": "BYD",
+    "status": "Used",
+    "price": "1,000,000 جنيه",
+    "year": 2023,
+    "engine": "Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "160km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://image.made-in-china.com/2f0j00SmjVCHOWyKpY/2023-Byd-Yuan-Plus-510km-Flagship-Plus-Model-Compact-EV-SUV.jpg"
+    
+    ]
+  },
+  {
+    "ID": 46,
+    "name": "Polestar 2 2023",
+    "brandImage":"https://www.carlogos.org/logo/Polestar-logo-1366x768.png",
+    "brand": "Polestar",
+    "status": "Used",
+    "price": "2,045,000 جنيه",
+    "year": 2023,
+    "engine": "Dual Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "205km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://images.carexpert.com.au/resize/3000/-/app/uploads/2022/12/2023-Polestar-2-Long-Range-Dual-Motor-12-DSC03432.jpg"
+    ]
+  },
+  {
+    "ID": 47,
+    "name": "Audi e-tron 2023",
+    "brandImage":"https://th.bing.com/th/id/R.dc3736ceced319d4db52770885933463?rik=lIuuAebv0Vz6pw&pid=ImgRaw&r=0",
+    "brand": "Audi",
+    "status": "Used",
+    "price": "4,000,000 جنيه",
+    "year": 2023,
+    "engine": "Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "200km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://www.motortrend.com/uploads/2022/07/2023-Audi-E-tron-56-exterior-front-three-quarter-view.jpg"
+    
+    ]
+  },
+  {
+    "ID": 48,
+    "name": "Porsche Taycan 2022",
+    "brandImage":"https://tse3.mm.bing.net/th/id/OIP.C40EjG4zgWWL6Me4eYlccgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "brand": "Porsche",
+    "status": "Used",
+    "price": "3,650,000 جنيه",
+    "year": 2022,
+    "engine": "Dual Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "250km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://images.classic.com/vehicles/09bb9e8e10a8b930a8ca94921a2deeb7.jpeg?w=1200&h=676&fit=crop"
+    
+    ]
+  },
+  {
+    "ID": 49,
+    "name": "Kia EV9 2024",
+    "brandImage":"https://1000logos.net/wp-content/uploads/2020/02/kia-logo-768x512.png",
+    "brand": "Kia",
+    "status": "Used",
+    "price": "3,500,000 جنيه",
+    "year": 2024,
+    "engine": "Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "190km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://cdn.jdpower.com/JDP_2024%20Kia%20EV9%20GT-Line%20Front%20Quarter%20View%20Action.jpg"
+    
+    ]
+  },
+  {
+    "ID": 50,
+    "name": "Honda e:NS1 2023",
+    "brandImage":"https://tse1.mm.bing.net/th/id/OIP.iRImtXLp4vH2nT_zgFeYOAHaGC?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "brand": "Honda",
+    "status": "Used",
+    "price": "1,280,000 جنيه",
+    "year": 2023,
+    "engine": "Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "150km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://tse4.mm.bing.net/th/id/OIP.8HuEkbrSqCm3NqLftpZffgHaEo?rs=1&pid=ImgDetMain&o=7&rm=3"
+
+    ]
+  },
+  {
+    "ID": 51,
+    "name": "Hyundai Ioniq 5 2023",
+    "brandImage":"https://logo-marque.com/wp-content/uploads/2021/03/Hyundai-Logo-650x366.png",
+    "brand": "Hyundai",
+    "status": "Used",
+    "price": "2,150,000 جنيه",
+    "year": 2023,
+    "engine": "Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "185km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://cdn.motor1.com/images/mgl/MkkkNw/s1/2023-hyundai-ioniq-5-euro-spec.jpg"
+    
+    ]
+  },
+  {
+    "ID": 52,
+    "name": "Nissan Leaf 2022",
+    "brandImage":"https://www.pngplay.com/wp-content/uploads/7/Nissan-Logo-Background-PNG-Image.png",
+    "brand": "Nissan",
+    "status": "Used",
+    "price": "1,050,000 جنيه",
+    "year": 2022,
+    "engine": "Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "155km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://th.bing.com/th/id/R.5a50ab1bdc99c3c35630cc6d49206f85?rik=xqPD0DEYWWj3wg&pid=ImgRaw&r=0"
+    
+    ]
+  },
+  {
+    "ID": 53,
+    "name": "Chevrolet Bolt EV 2021",
+    "brandImage":"https://tse3.mm.bing.net/th/id/OIP.aLxmUXnp_AHDU7HaItr7PgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "brand": "Chevrolet",
+    "status": "Used",
+    "price": "1,180,000 جنيه",
+    "year": 2021,
+    "engine": "Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "150km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://th.bing.com/th/id/R.acc5ef3f08b2d5b939bfdedcba734292?rik=gpSn0hs5nLcmNg&pid=ImgRaw&r=0"
+    
+    ]
+  },
+  {
+    "ID": 54,
+    "name": "Jaguar I-PACE 2022",
+    "brandImage":"https://www.carlogos.org/car-logos/jaguar-logo-2012-640.png",
+    "brand": "Jaguar",
+    "status": "Used",
+    "price": "3,750,000 جنيه",
+    "year": 2022,
+    "engine": "Dual Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "200km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://tse1.mm.bing.net/th/id/OIP.Yyu_7kiI5tyzjJxYxAVM9QHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"
+    
+    ]
+  },
+  {
+    "ID": 55,
+    "name": "Ford Mustang Mach-E 2023",
+    "brandImage":"https://www.freepnglogos.com/uploads/large-ford-logo-0.png",
+    "brand": "Ford",
+    "status": "Used",
+    "price": "2,650,000 جنيه",
+    "year": 2023,
+    "engine": "Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "210km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://www.motortrend.com/uploads/2022/08/2023-Ford-Mustang-Mach-E-_Vapor-Blue-Metallic-1-1.jpg?fit=around|875:492.1875"
+    
+    ]
+  },
+  {
+    "ID": 56,
+    "name": "Volvo XC40 Recharge 2022",
+    "brandImage":"https://sharmasolicitors.in/wp-content/uploads/2014/08/Volvo-is-legal-client-of-www.SharmaSolicitors.in_-841x560.png",
+    "brand": "Volvo",
+    "status": "Used",
+    "price": "2,480,000 جنيه",
+    "year": 2022,
+    "engine": "Dual Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "180km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://tse1.mm.bing.net/th/id/OIP.s3IiPEjOT3L9hzXnVbPjMQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
+      
+    ]
+  },
+  {
+    "ID": 57,
+    "name": "Mini Cooper SE 2023",
+    "brandImage":"https://www.seekpng.com/png/detail/67-670050_mini-car-logo-png-brand-image-mini-cooper.png",
+    "brand": "Mini",
+    "status": "Used",
+    "price": "1,450,000 جنيه",
+    "year": 2023,
+    "engine": "Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "150km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://tse2.mm.bing.net/th/id/OIP.gWQJlzal5PdYPBFcr8ALgAHaEK?w=1080&h=608&rs=1&pid=ImgDetMain&o=7&rm=3"
+    
+    ]
+  },
+  {
+    "ID": 58,
+    "name": "Lucid Air 2024",
+    "brandImage":"https://logowik.com/content/uploads/images/lucid-motors3169.jpg",
+    "brand": "Lucid",
+    "status": "Used",
+    "price": "5,200,000 جنيه",
+    "year": 2024,
+    "engine": "Dual Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "270km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://tse4.mm.bing.net/th/id/OIP.a87GpaOSdMtGKRwQo1L1RgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
+
+    ]
+  },
+  {
+    "ID": 59,
+    "name": "Rivian R1T 2023",
+    "brandImage":"https://th.bing.com/th/id/R.472bb25f4282a8dc182f320449835ea2?rik=njnqZ5pljMOFzg&pid=ImgRaw&r=0",
+    "brand": "Rivian",
+    "status": "Used",
+    "price": "4,850,000 جنيه",
+    "year": 2023,
+    "engine": "Quad Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "201km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://d9s1543upwp3n.cloudfront.net/wp-content/uploads/2023/08/001-2023-Rivian-R1T-Dual-Motor-front-three-quarters-in-action.jpg"
+    ]
+  },
+  {
+    "ID": 60,
+    "name": "Zeekr 001 2024",
+    "brandImage":"https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/c302caf4-290e-41f6-81ab-6a2600a7d51d/original.jpeg",
+    "brand": "Zeekr",
+    "status": "Used",
+    "price": "2,950,000 جنيه",
+    "year": 2024,
+    "engine": "Dual Electric Motor",
+    "fuel": "كهرباء",
+    "cylinders": 0,
+    "Speed": "240km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://tse1.mm.bing.net/th/id/OIP.jVGAg4Gcro4ykoCX6dmTAwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"
+      
+    ]
+  }
+
+]

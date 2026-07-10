@@ -1,0 +1,406 @@
+body{
+    font-family: Arial;
+    background:#1c1717;
+    padding:20px;
+    background-image: url('/new/images/particle-lines-futuristic-gradient-background.jpg');
+}
+
+h1{
+    text-align:center;
+    margin-bottom:40px;
+    color: #1e3a8a;
+
+}
+
+h2{
+    margin-bottom:20px;
+    margin-top: 0px;
+    margin-right: 80px;
+    color: #1e3a8a;
+
+}
+
+/* brands */
+
+.brands{
+    background-color: #f7f5f5;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+    gap:15px;
+    margin-bottom:40px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border: #f9fbfb 2px solid;
+    border-radius: 10px;
+
+}
+
+.brand{
+    margin: 10px;
+    background-color:#fff;
+    padding:20px;
+    height: 180px;
+
+    border-radius:15px;
+    text-align:center;
+    cursor:pointer;
+     box-shadow: 100 2px 2px #c1636326;
+    transition:0.3s;
+}
+
+ .brand:hover{
+    transform:translateY(-5px);
+    background-color: #25D366;
+}
+
+
+.brand img{
+    width:70px;
+    height:70px;
+    border: 2px rgb(238, 238, 238) solid;
+    border-radius: 10px;
+    object-fit:contain;
+}
+
+
+
+
+
+
+
+.brand {
+  position: relative;
+      /* أبعاد المربع */
+  background: rgba(255, 255, 255, 0.02); /* تأثير زجاجي فاخر خفيف */
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px; /* زوايا منحنية عصرية */
+  
+  
+  box-shadow: 
+    0 10px 30px rgba(0, 0, 0, 0.5),
+    inset 0 1px 1px rgba(255, 255, 255, 0.1); 
+    
+  /* أنيميشن ناعم جداً لكل التأثيرات عند الحركة */
+  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: hidden; /* للحفاظ على تأثير اللمعة داخل المربع */
+}
+
+/* تأثير لمعة البريق (Shine Effect) اللي بتمر داخل المربع */
+.brand::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.15),
+    transparent
+  );
+  transform: skewX(-25deg);
+}
+
+/* 2. تأثير الـ Hover الفاخر عند تمرير الماوس */
+.brand:hover {
+  transform: translateY(-10px) scale(1.02); /* يرتفع المربع للأعلى بثقة وسلاسة */
+  border-color: rgba(162, 164, 163, 0.25);  /* إضاءة حواف المربع */
+  
+  /* بوكس شادو متعدد الطبقات (توهج علوي ناعم + ظل سفلي عميق) */
+  box-shadow: 
+    0 30px 60px -15px rgba(0, 0, 0, 0.8),       /* الظل الأسود البعيد */
+    0 0 40px -5px rgba(255, 255, 255, 0.12),    /* التوهج المحيط بالمربع */
+    inset 0 1px 2px rgba(255, 255, 255, 0.3);   /* زيادة إضاءة الحافة الداخلية */
+}
+
+/* تشغيل حركة اللمعة الفاخرة عند الهوفر */
+.brand:hover::before {
+  left: 150%;
+  transition: all 0.8s ease-in-out;
+}
+
+
+/* slider */
+
+.slider{
+    background-color: #fdfcfc;
+    border: 2px solid rgb(45, 44, 44) solid;
+    border-radius: 15px;
+    display:flex;
+    gap:20px;
+    overflow-x:auto;
+    scroll-behavior:smooth;
+    padding-bottom:10px;
+    padding-right: 10px;
+}
+
+.slider::-webkit-scrollbar{
+    display:none;
+}
+
+/* head */
+
+.head{
+    padding-right: 20px;
+    background-color:#fdfcfc ;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.btns button{
+    width:40px;
+    height:40px;
+    border:none;
+    border-radius:50%;
+    background:black;
+    color:white;
+    cursor:pointer;
+}
+
+/* card */
+
+.card{
+    min-width:300px;
+    height:430px;
+    perspective:1000px;
+    cursor:pointer;
+}
+
+.inner{
+    width:100%;
+    height:100%;
+    position:relative;
+    transition:transform 0.8s;
+    transform-style:preserve-3d;
+}
+
+.card.flipped .inner{
+    transform:rotateY(180deg);
+}
+
+.front,.back{
+    position:absolute;
+    width:100%;
+    height:100%;
+    border-radius:15px;
+    backface-visibility:hidden;
+    overflow:hidden;
+    background:white;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* front */
+
+.front img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border: 2px solid rgb(189, 185, 185);
+    border-radius: 10px;
+}
+
+.info{
+    padding:15px;
+}
+
+.price{
+    color:#00aaff;
+    font-weight:bold;
+}
+.detels{
+    padding-top: 40px;
+}
+.detelsuesd{
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    height: 40px;
+    background-color: #007bff;
+    margin: auto;
+    text-align: center;
+    /* padding-top: 40px; */
+    border: #0066ff 2px solid;
+    border-radius: 10px;
+}
+
+/* back */
+
+.back{
+    background:#3496bd;
+    color:rgb(247, 238, 238);
+    transform:rotateY(180deg);
+    padding:15px;
+    border: #00aaff 2px solid;
+    border-radius: 10px;
+}
+
+.spec{
+    background-color: #dee6e6;
+    margin: 4px;
+    display:flex;
+    justify-content:space-between;
+    padding:12px 0;
+    border:2px solid rgba(222, 216, 216, 0.1);
+    border-radius: 10px;
+}
+.spec span{
+    padding: 0px 10px ;
+    color: #373434;
+}
+/* hover */
+
+.spec:hover{
+
+    transform: scale(1.05);
+
+    color: white;
+
+    animation: specScale 0.4s forwards;
+}
+
+
+
+/* animated background */
+
+.spec::before{
+
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+
+    right: -100%;
+
+    width: 100%;
+
+    height: 100%;
+
+    background: linear-gradient(
+        90deg,
+        #0066ff,
+        #00aaff
+    );
+
+    z-index: -1;
+
+    border-radius: 10px;
+}
+
+
+
+/* trigger animation */
+
+.spec:hover::before{
+
+    animation: slideBg 0.5s forwards;
+}
+
+
+
+/* keyframes */
+
+@keyframes slideBg{
+
+    from{
+
+        right: -100%;
+    }
+
+    to{
+
+        right: 0;
+    }
+}
+
+
+
+@keyframes specScale{
+
+    0%{
+
+        transform: scale(1);
+    }
+
+    100%{
+
+        transform: scale(1.05);
+    }
+}
+
+.actions{
+    display:flex;
+    gap:10px;
+    margin-top:15px;
+}
+
+.actions a{
+    flex:1;
+    text-align:center;
+    padding:10px;
+    border-radius:10px;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.actions a:hover{
+    transform:scale(1.05);
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+.call{
+    background:#007bff;
+}
+/* card hover*/
+.card{
+    transition: transform 0.4s, box-shadow 0.4s;
+    background-color: #337ac5;
+    border: 2px solid rgb(239, 236, 236);
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.card:hover{
+    transform: translateY(-20px) scale(1.03);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+/* imge hover*/
+.front img{
+    transition: 0.5s;
+}
+
+.card:hover .front img{
+    transform: scale(1.1);
+    filter: brightness(1,3);
+}
+/* actins hover*/
+.actions a{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* overlay effect */
+.actions a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255,255,255,0.3), transparent);
+    transition: 0.4s;
+    z-index: -1;
+}
+
+.actions a:hover::before{
+    right: 0;
+}
