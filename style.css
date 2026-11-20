@@ -1,5 +1,6 @@
 body {
-  background-color: #f5f3f3;
+  /* background-color: #f5f3f3; */
+  background-color: #eae7e7;
   margin: 0;
   font-family: Arial, sans-serif;
 
@@ -8,7 +9,7 @@ body {
 
 /* Header */
 .header {
-  background:#fdfbfb;
+  /* background:#fdfbfb; */
 border-bottom-left-radius:30PX ;
 border-bottom-right-radius: 30px;
    /* width: 80%; */
@@ -105,7 +106,7 @@ z-index: 3000;
     width: 100%;
     text-align: center;
     text-decoration: none;
-    background: #111;
+    background: #ece7e7;
     color: white;
     padding: 14px;
     border-radius: 10px;
@@ -138,6 +139,8 @@ z-index: 3000;
   border-radius: 8px;
     max-width:500px;
   min-width: 250px;
+  background-color: #0066ff;
+  color: #f6f2f2;
 }
 
 .search-box i {
@@ -205,11 +208,11 @@ z-index: 3000;
 
 @keyframes pulse-effect {
   0% {
-    background-color:#1e3a8a;
+    background-color:#061130;
     transform: scale(1);
   }
   100% {
-    background-color: #4A90E2; /* اللون اللي هينتهي عنده */
+    background-color: #565759; /* اللون اللي هينتهي عنده */
     transform: scale(1.25);    /* هيكبر بنسبة 10% */
     box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* تأثير ظل خفيف */
   }
@@ -227,7 +230,7 @@ z-index: 3000;
   text-align: center;
   width: 100%;
   height: 70px;
-    background-color: #fdfafa; /* خلفية غامقة فخمة */
+    background-color: #121111; /* خلفية غامقة فخمة */
     color: #000;
     display: flex;
    padding-top: 0px;
@@ -259,6 +262,7 @@ z-index: 3000;
     overflow: hidden;
     width: 100%;
     flex-wrap: wrap;
+    color: #f6f1f1;
 
 }
 
@@ -463,7 +467,7 @@ hr{
   width: 80%;
   height: 30vh;
   border: solid 2px #9e9b9b;
-  background:#fff;
+  background:#232121;
   border-radius: 5px;
 }
 /*========================*/
@@ -519,7 +523,7 @@ h2 .fa-solid{
     width: 95%;
     margin: 0 auto;
     display: flex;
-
+    background-color: #fcfbfb;
     align-items: center;
 }
 
@@ -527,7 +531,7 @@ h2 .fa-solid{
 .cars-wrapper {
     display: flex;
     gap: 20px;
-
+   background-color: #000;
     overflow-x: auto;
     scroll-behavior: smooth;
     padding: 15px 5px;
@@ -536,12 +540,14 @@ h2 .fa-solid{
 
 .cars-wrapper::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Edge */
+    background-color: #000;
 }
 
 /* تصميم الكرت الواحد */
 .card {
     min-width: 300px; /* عرض ثابت لكل كرت */
     background: #fff;
+    background: black;
     border-radius: 12px;
     border: 1px solid #e0e0e0;
     overflow: hidden;
@@ -578,6 +584,9 @@ h2 .fa-solid{
     padding: 3px 10px;
     border-radius: 5px;
     font-size: 12px;
+}
+.car-slider-section{
+  background-color: black;
 }
 
 .card-content {
@@ -867,7 +876,9 @@ padding: 10px;
    padding-top: 30px;
    border-radius: 10px;
    padding: 40px;
-   background-color: #fff;
+   /* background-color: #fff; */
+   background-color: #000;
+
    }
 
 .desc-card { 
@@ -1252,4 +1263,9 @@ h2,h1{
     color: white;
     cursor: pointer;
     font-size: 15px;
+}
+
+
+body{
+  background-color: #000;
 }

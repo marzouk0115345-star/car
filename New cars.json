@@ -1,4 +1,97 @@
 [
+
+
+  
+  {
+    "ID": 404,
+    "name": "Mercedes EQC",
+    "brand": "Mercedes",
+    "status": "NEW",
+    "price": "1,300,000 جنيه",
+    "year": 2024,
+    "engine": "1500cc Turbo",
+    "fuel": "بنزين",
+    "cylinders": 4,
+    "Speed": "215km/h",
+    "transmission": "أوتوماتيك",
+    "image": [
+      "https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220_1280.jpg",
+      "https://cdn.pixabay.com/photo/2016/02/13/13/11/car-1197800_1280.jpg"
+    ]
+  },
+
+ 
+  
+     {
+     "status": "Used",
+    "name": "Kia Cerato 2017",
+    "brand": " kia",
+    "price": "800,000 جنيه",
+    "year": 2020,
+    "engine": "1600cc",
+    "fuel": "بنزين",
+    "ID":30,
+    "cylinders": 4,
+    "Speed":"200km/h",
+    "transmission": "أوتوماتيك",
+    "image": ["https://legion-images.hatla2ee.com/listing_image/2482b8b3-7f7b-46ca-b555-d34caa3dfd62/large.jpg",
+     "https://legion-images.hatla2ee.com/listing_image/85db7f96-83cc-4b2d-9803-9f052806c2e8/large.jpg"
+    ]
+  },
+  {
+    "ID":60,
+    "cylinders": 4,
+    "Speed":"203km/h",
+    "name": "BMW X5 2023",
+    "brand": "BMW",
+    "status": "new",
+    "price": "3,500,000 EGP",
+    "year": 2023,
+    "engine": "3000cc Turbo",
+    "fuel": "بنزين",
+    "transmission": "أوتوماتيك",
+    "image": ["https://images.unsplash.com/photo-1555215695-3004980ad54e"]
+  },
+  {
+    "ID":61,
+    "cylinders": 4,
+    "Speed":"203km/h",
+    "name": "Mercedes-Benz C200 2022",
+    "brand": "Mercedes",
+    "price": "2,800,000 جنيه",
+    "year": 2022,
+    "status": "new",
+    "engine": "2000cc Turbo",
+    "fuel": "بنزين",
+    "transmission": "أوتوماتيك",
+    "image":[ "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8"]
+  },
+  { "ID":62,
+    "cylinders": 4,
+    "Speed":"203km/h",
+    "name": "Range Rover",
+    "brand": "Toyota",
+    "status": "new",
+    "price": "1,000,000 جنيه",
+    "year": 2023,
+    "engine": "1600cc",
+    "fuel": "بنزين",
+    "transmission": "أوتوماتيك",
+    "image":[ "https://images.unsplash.com/photo-1542362567-b07e54358753"]
+  },
+  { "ID":63,
+    "cylinders": 4,
+    "Speed":"203km/h",
+    "name": "Audi Q4 e-tron 2024",
+    "brand": "Audi",
+    "price": "1,600,000 جنيه",
+    "year": 2024,
+    "engine": "1600cc Turbo",
+    "status": "new",
+    "fuel": "بنزين",
+    "transmission": "أوتوماتيك",
+    "image": ["https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6"]
+  },
   {
     "ID": 72,
     "name": "Ford Focus 2022",

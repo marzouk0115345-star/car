@@ -3,7 +3,8 @@ body {
     font-family: Arial;
     /* background: linear-gradient(to right, #eef2ff, #f8fafc); */
     direction: rtl;
-    background-image: url('/new/images/particle-lines-futuristic-gradient-background.jpg');
+    /* background-image: url('/new/images/particle-lines-futuristic-gradient-background.jpg'); */
+    background-color: #121111;
     background-repeat: no-repeat;
 }
 
